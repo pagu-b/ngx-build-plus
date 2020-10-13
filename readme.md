@@ -2,6 +2,8 @@
 This fork contains schema fixes that solve latest angular cli build issues.
 https://github.com/manfredsteyer/ngx-build-plus/issues/88
 
+Make your changes in `/lib` and `npm publish` from that folder.
+
 **Warning: this is public fork, don't put internal stuff here**
 
 

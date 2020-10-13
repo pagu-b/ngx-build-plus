@@ -135,8 +135,34 @@
       "description": "Build using Ahead of Time compilation."
     },
     "sourceMap": {
-      "type": "boolean",
-      "description": "Output sourcemaps."
+      "description": "Output sourcemaps.",
+      "default": true,
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "scripts": {
+              "type": "boolean",
+              "description": "Output sourcemaps for all scripts.",
+              "default": true
+            },
+            "styles": {
+              "type": "boolean",
+              "description": "Output sourcemaps for all styles.",
+              "default": true
+            },
+            "vendor": {
+              "type": "boolean",
+              "description": "Resolve vendor packages sourcemaps.",
+              "default": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "boolean"
+        }
+      ]
     },
     "vendorSourceMap": {
       "type": "boolean",

@@ -1,11 +1,11 @@
 {
   "name": "obg-ngx-build-plus",
-  "version": "9.0.6",
-  "description": "Extends the Angular CLI's build process!",
+  "version": "9.0.7-obg.1",
+  "description": "Fork of ngx-build-plus with fixes applied",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manfredsteyer/ngx-build-plus"
+    "url": "https://github.com/pagu-b/ngx-build-plus"
   },
   "main": "src/index.js",
   "typings": "src/index.d.ts",
