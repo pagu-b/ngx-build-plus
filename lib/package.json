@@ -1,5 +1,5 @@
 {
-  "name": "ngx-build-plus",
+  "name": "obg-ngx-build-plus",
   "version": "9.0.6",
   "description": "Extends the Angular CLI's build process!",
   "license": "MIT",

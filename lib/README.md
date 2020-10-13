@@ -1,3 +1,10 @@
+# Fork info
+This fork contains schema fixes that solve latest angular cli build issues.
+https://github.com/manfredsteyer/ngx-build-plus/issues/88
+
+**Warning: this is public fork, don't put internal stuff here**
+
+
 # ngx-build-plus
 
 Extend the Angular CLI's default build behavior without ejecting:
